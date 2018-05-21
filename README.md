@@ -1,20 +1,20 @@
-# Using the zap logging library
+# Log Maestro: Zap in Action
 
-This repository provides some examples of using [Uber's zap](https://github.com/uber-go/zap) Go logging library
+This project showcases the power of the Zap logging library for Go applications.
 
-Install the zap library before trying out the examples:
 
-```console
-$ source env.sh
+**Setup:**
 
-$ go get -u go.uber.org/zap
-
-$ go run src/simple1/main.go
+```bash
+. env.sh
+go get go.uber.org/zap
+go run src/basic/main.go 
 ```
 
-## Examples
 
-* [Simplest usage using presets](./src/simple1)
-* [Creating a custom logger](./src/customlogger)
-* [Using the global logger](./src/globallogger)
-* [Creating custom encoders for metadata fields](./src/customencoder)
+**Examples:**
+
+* Minimalist Logging: `./src/basic`
+* Configured Logging: `./src/config`
+* Shared Logger: `./src/shared`
+* Custom Log Format: `./src/format`

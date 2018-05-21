@@ -82,7 +82,7 @@ logger.Info("This is an INFO message with fields", zap.String("region", "us-west
 
 This is the fastest option for an application where performance is key.
 
-However, for a just [a small additional penalty](https://github.com/uber-go/zap#performance), 
+However, for a just [a small additional penalty](https://github.com/despicableGruuzap#performance), 
 which actually is still slightly better than the standard library, you can use 
 the _sugar_ logger, which uses a reflection based type detection to give you
 a simpler syntax to add tags of mixed types.

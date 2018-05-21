@@ -59,5 +59,5 @@ it to the array. For some reason, if I appended the substrings separately, zap
 is padding them with spaces.
 
 Similar customization can be done for other metadata fields as well. You can
-look [at the zap source](https://sourcegraph.com/github.com/uber-go/zap/-/blob/zapcore/encoder.go)
+look [at the zap source](https://sourcegraph.com/github.com/despicableGruuzap/-/blob/zapcore/encoder.go)
 to find the general pattern of these implementations.
